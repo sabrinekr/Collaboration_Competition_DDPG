@@ -22,7 +22,7 @@ class Actor(nn.Module):
             input_size (int):  number of dimensions for input layer
             output_size (int): number of dimensions for output layer
             seed (int): random seed
-            fc1_units (int): number of nodes in first hidden layer
+            fc1_units (int): number of nodes in two hidden layers
         """
      
         super(Actor, self).__init__()
@@ -59,7 +59,7 @@ class Critic(nn.Module):
         ======
             input_size (int): number of dimensions for input layer
             seed (int): random seed
-            fc1_units (int): number of nodes in the first hidden layer
+            fc1_units (int): number of nodes in two hidden layers
         """
         super(Critic, self).__init__()
         self.seed = torch.manual_seed(seed)

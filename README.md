@@ -80,4 +80,4 @@ In order to train our agent we have to:
 3. Train the agent using MADDPG. 
 4. Iterate until the mean score of the 100 last episodes reaches the value of 0.5.
 
-You can train the agent following the instructions in the notebook Continious_Control.ipynb.
+You can train the agent following the instructions in the notebook Tennis.ipynb.
